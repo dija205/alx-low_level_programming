@@ -1,28 +1,29 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - Un programme qui détermine si un nombre est positif, négatif ou nul.
- * 
- * Return: Toujours 0 (Succès)
+ * main - Determines if a number is positive, negative or zero.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int a;
-srand(time(0));
-a = rand() - RAND_MAX / 2;
-if (a > 0)
-{
-printf("%d est positif\n", a);
-}
-else if (a == 0)
-{
-printf("%d est nul\n", a);
-}
-else
-{
-printf("%d est négatif\n", a);
-}
-return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negative\n", n);
+	}
+	return (0);
 }
