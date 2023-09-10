@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a program  prints all possible different combinations of two digits
+ * main - entry point
  *
  * Return :Always 0 (success)
  **/
@@ -18,6 +18,6 @@ printf(", ");
 }
 }
 }
- printf("\n");
+printf("\n");
 return (0);
 }
