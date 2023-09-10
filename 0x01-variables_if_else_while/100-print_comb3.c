@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - a program  prints all possible different combinations of two digits
- * return :Always 0
+ *
+ * Return :Always 0 (success)
  **/
 int main(void)
 {
@@ -17,7 +18,6 @@ printf(", ");
 }
 }
 }
-printf("\n");
-//success 
+ printf("\n");
 return (0);
 }
