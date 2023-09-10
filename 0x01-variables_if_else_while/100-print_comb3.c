@@ -5,7 +5,7 @@
  * Return : Always 0 (success)
  **/
 
-int main(void)/*integer value */
+int main(void)/*main - entry point prints all possible different combinations of two digits */
 {
 int i, j;
 for (i = 0; i < 10; i++)
