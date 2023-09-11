@@ -6,7 +6,7 @@
  */
 
 
-int main(void)
+int main(void)/*Description : prints all possible different combinations of two digits */
 {
 int i, j;
 for (i = 0; i < 10; i++)
