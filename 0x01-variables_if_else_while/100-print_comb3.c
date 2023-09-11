@@ -4,9 +4,7 @@
  * Description : prints all possible different combinations of two digits
  * Return : Always 0 (success)
  */
-
-
-int main(void)/*Description : prints all possible different combinations of two digits */
+int main(void)
 {
 int i, j;
 for (i = 0; i < 10; i++)
