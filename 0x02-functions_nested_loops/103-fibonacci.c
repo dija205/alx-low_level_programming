@@ -15,7 +15,7 @@ a = b;
 b = c;
 
 if ((a % 2) == 0)
-sum += n1;
+sum += a;
 
 }
 printf("%ld\n", sum);
