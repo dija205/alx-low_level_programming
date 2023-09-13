@@ -2,17 +2,19 @@
 /**
 *print_last_digit - function that print last digit of a number
 *@n: number to be targeted
-*Return: last digit 
+*Return: last digit
 */
 int print_last_digit(int n)
 {
 int last = n % 10;
-if (last < 0){
+if (last < 0)
+{
 _putchar(-last + 48);
-return(-last);
+return (-last);
 }
-else{
-_putchar (last + 48);
+else
+{
+_putchar(last + 48);
 return (last);
 }
 }
