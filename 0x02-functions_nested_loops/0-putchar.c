@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 *main - function prints text as output
-*@_putchar:the output
-*Return:return 0
+*description: 'prints _putchar to stdout'
+*Return: always 0
 */
 int main(void)
 {
@@ -12,8 +12,8 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		putchar(output[i]);
+		_putchar(output[i]);
 	}
-	putchar(10);
+	_putchar(10);
 	return (0);
 }
