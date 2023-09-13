@@ -22,7 +22,7 @@ r = d * m;
 if (r <= 99)
 _putchar(' ');
 
-if (r<= 9)
+if ( r<= 9)
 _putchar(' ');
 if (r >= 100)
 {
