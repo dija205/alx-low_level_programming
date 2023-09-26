@@ -7,11 +7,11 @@
 */
 void print_diagsums(int *a, int size)
 {
-	int i, suma = 0, sumb = 0;
+	int i, sum1 = 0, sum2 = 0;
 
 	for (i = 0; i < size; i++)
 	{
-		suma += a[i];
+		sum1 += a[i];
 		a += size;
 	}
 
@@ -19,9 +19,9 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		sumb += a[i];
+		sum2 += a[i];
 		a -= size;
 	}
 
-	printf("%d, %d\n", suma, sumb);
+	printf("%d, %d\n", sum1, sum2);
 }
